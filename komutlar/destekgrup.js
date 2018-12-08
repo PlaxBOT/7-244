@@ -8,7 +8,7 @@ exports.run = (client, message, params) => {
   .setTitle("Destek Sunucusu Komutu")
   .setDescription('')
   .setColor("RANDOM")
-  .addField("**Destek Sunucum**", "https://discord.gg/kK28drz")
+  .addField("**Destek Sunucum**", "https://discord.gg/yZaNWEE")
   .setFooter('PlaxBot Güncel Sürüm [ BETA v0.2.6 ]')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
