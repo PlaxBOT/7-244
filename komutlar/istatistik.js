@@ -39,7 +39,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'istatistik',
+  name: 'p!istatistik',
   description: 'Botun istatistik gösterir.',
-  usage: 'istatistik'
+  usage: 'p!istatistik'
 };
