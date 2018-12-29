@@ -154,7 +154,7 @@ client.on("message", async message => {
     if (!message.guild) return
     if (message.guild.id == "509056257773142028") {
     if (message.content.toLowerCase() === prefix + 'js') {
-      let rol = message.guild.roles.find(r => r.name === "Bot Geliştiriciler");
+      let rol = message.guild.roles.find(r => r.name === "@Bot Geliştiricileri ");
       if (!rol) return message.reply("Hata: Rol bulunamadı! `Lütfen yetkililere bildiriniz!`")
       message.member.addRole(rol)
       message.channel.send(":white_check_mark: **Başarıyla rolü aldın!**")
