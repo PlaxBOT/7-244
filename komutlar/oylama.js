@@ -18,7 +18,7 @@ const Discord = require('discord.js');
        new Discord.RichEmbed()
 
        .setColor("RANDOM")
-       .setThumbnail(client.user.avatarURL)
+       .setThumbnail()
        .setTimestamp()
 
        .addField(`**Oylama**`, `**${question}**`)).then(function(message) {
