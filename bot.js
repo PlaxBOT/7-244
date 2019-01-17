@@ -13,6 +13,10 @@ const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
 
+client.on("ready", () => {
+  client.user.setGame(prefix + `yardım | ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor! | Davet etmek için p!davet`) 
+  console.log("Bağlandım!")   
+});
 bot.on('guildMemberAdd', member => {
   const channel = member.guild.channels.find('name', 'hosgeldiniz-log');
   if (!channel) return;
