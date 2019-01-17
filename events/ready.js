@@ -12,7 +12,7 @@ module.exports = client => {
    var oyun = [
         "Prefiximiz : p!",
         "Davet Etmeyi Unutamayın - p!davet",
-        "` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` Kullanıcıya hizmet veriyorum",
+        `client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() +`" Kullanıcıya hizmet veriyorum",
         `${client.guilds.size} sunucuya hizmet veriyorum.`
 
     ];
