@@ -11,7 +11,7 @@ module.exports = client => {
   client.user.setStatus("online");
    var oyun = [
         "Prefiximiz : p!",
-        "",
+        "Davet Etmeyi Unutamayın - p!davet",
         "",
         "",
         "",
