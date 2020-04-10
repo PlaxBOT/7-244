@@ -3,7 +3,7 @@ const shorten = require('isgd');
 
 exports.run = (client, message, args, tools) => {
     message.delete();
-    if (!args[0]) return message.channel.send(' ``` \n » Kullanım: !kısalt <URL> <isim> \n » Örnek: !kısalt http://clawbot.tk clawbot\n ``` ')
+    if (!args[0]) return message.channel.send(' ``` \n » Kullanım: !kısalt <URL> <isim> ``` ')
 
     if(!args[1]) {
 
