@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setAuthor(message.author.username, message.author.avatarURL)
 	.addField("**❯ Yapımcı**", " @Rozafeith#6278 ", )
-  .addField("**❯ Sürüm**", " BETA v.1.2 ", )
+  .addField("**❯ Sürüm**", " BETA v0.1.2 ", )
   .addField("**❯ Yapıldığı Tarih**", " 28 Kasım 2018 ", )
 	.addField("**❯ Bot Davet**", " [Davet Et](https://discordapp.com/oauth2/authorize?client_id=506199387785920512&scope=bot&permissions=8)", )
   .addField("**❯ Destek sunucusu**", " [Sunucumuza Katıl](https://discord.gg/rUABzKm) ", )
