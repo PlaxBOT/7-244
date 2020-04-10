@@ -14,7 +14,7 @@ exports.run = (client, message, args) => {
   let modlog = guild.channels.find('name', 'mod-log');
   let muteRole = client.guilds.get(message.guild.id).roles.find('name', 'Susturulmus');
   if (!modlog) return message.reply('`mod-log` **kanalını bulamıyorum.**').catch(console.error);
-  if (!muteRole) return message.reply('`Muted` **adlı bir rol bulamıyorum.**').catch(console.error);
+  if (!muteRole) return message.reply('`Susturulmus` **adlı bir rol bulamıyorum.**').catch(console.error);
   if (reason.length < 1) return message.reply(' **Susturma sebebini Yazmadın!** ').catch(console.error);
   if (message.mentions.users.size < 1) return message.reply(' **Kimi susturacağını Belirtmedin!** ').catch(console.error);
   const embed = new Discord.RichEmbed()
