@@ -15,7 +15,7 @@ exports.run = (client, msg) => {
   .addField("**» Kanallar**", `${client.channels.size.toLocaleString()}`)
   .addField("**» Discord.JS sürüm**", `v${Discord.version}`)
   .addField("**» Ping**", `${client.ping}`)
-  .setFooter('PlaxBot Güncel Sürüm [ BETA v0.2.5 ]')
+  .setFooter('PlaxBot Güncel Sürüm [ BETA v0.1.2 ]')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
