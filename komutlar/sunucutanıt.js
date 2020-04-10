@@ -48,7 +48,7 @@ exports.run = async (client, message, args) => {
   if (kullanildii[message.guild.id].gunlukkullanim == 1)
   {
   message.channel.send({embed: {
-      description: '**SunucuTanıt**\n\nBu Komut Bu Sunucuda 12 Saat İçinde 1 Kere Kullanılmış\n\n**Bu Komutu Sadece 12 Saatte 1 Kez Kullanabilirsiniz**\n\n[Destek Sunucusu](https://discord.gg/pM5g3vy)\n[Beni Sunucuna Eklemek İçin Lütfen Tıkla](https://discordapp.com/oauth2/authorize?client_id=506199387785920512&scope=bot&permissions=2080767167)'
+      description: '**SunucuTanıt**\n\nBu Komut Bu Sunucuda 12 Saat İçinde 1 Kere Kullanılmış\n\n**Bu Komutu Sadece 12 Saatte 1 Kez Kullanabilirsiniz**\n\n[Destek Sunucusu](https://discord.gg/rUABzKm)\n[Beni Sunucuna Eklemek İçin Lütfen Tıkla](https://discordapp.com/oauth2/authorize?client_id=506199387785920512&scope=bot&permissions=2080767167)'
             }});
   }
 };
