@@ -13,7 +13,7 @@ exports.run = (client, message, params) => {
   .addField("**» Oyun Komutları**", `p!fortnite = İstediğiniz Kullanıcının İstatistiklerine Bakarsınız.`)
   .addField("**» Sunucu Yetkilisi Komutları**", `p!ban = İstediğiniz Kişiyi Sunucudan Banlar. \np!kick  = İstediğiniz Kişiyi Sunucudan Atar. \np!unban = İstediğiniz Kişinin Yasağını Açar. \np!sustur = İstediğiniz Kişiyi Susturur. \np!sil = Belirtilen Miktarda Mesajı Silir. (MAX 100) \np!oylama = Oylama Açar. \np!duyuru = Güzel Bir Duyuru Görünümü Sağlar. \np!sunucutanıt = Sunucunuzu tanıtır.`)
   .addField("**» Botun Ana Komutları**", "p!yardım = BOT Komutlarını Atar. \np!bilgi = BOT Kendisi Hakkında Bilgi Verir. \np!ping = BOT Gecikme Süresini Söyler. \np!davet = BOT Davet Linkini Atar. \np!istatistik = BOT İstatistiklerini Gösterir. \np!canlıdestek = Canlı destek talebi oluşturur. \np!destekgrup = Botun destek sunucusunun linkin atar. \np!ailemiz = Ailemizi gösterir.")
-  .setFooter('PlaxBot Güncel Sürüm [ BETA v0.2.5 ]')
+  .setFooter('PlaxBot Güncel Sürüm [ BETA v0.1.2 ]')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
