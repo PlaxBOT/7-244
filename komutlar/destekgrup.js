@@ -9,7 +9,7 @@ exports.run = (client, message, params) => {
   .setDescription('')
   .setColor("RANDOM")
   .addField("**Destek Sunucum**", "https://discord.gg/rUABzKm")
-  .setFooter('PlaxBot Güncel Sürüm [ BETA v0.2.6 ]')
+  .setFooter('PlaxBot Güncel Sürüm [ BETA v0.1.2 ]')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
