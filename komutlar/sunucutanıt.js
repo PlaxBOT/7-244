@@ -18,7 +18,7 @@ exports.run = async (client, message, args) => {
   {
         const embed = new Discord.RichEmbed()
   .setTitle('BAŞARILI')
-.setDescription('Sunucunuz Başarıyla [Suncuunuz Burada Tanıtıldı](https://discord.gg/pM5g3vy).\n12 saat Sonra sunucunuzu Tekrardan Tanıtabilirsiniz.')
+.setDescription('Sunucunuz Başarıyla [Suncuunuz Burada Tanıtıldı](https://discord.gg/gJtDt2s).\n12 saat Sonra sunucunuzu Tekrardan Tanıtabilirsiniz.')
         .setColor('GREEN')
  message.channel.sendEmbed(embed);
     message.channel.createInvite({maxAge: 0}).then((invite) => {
@@ -29,7 +29,7 @@ exports.run = async (client, message, args) => {
       .addField(` Sunucu Davet Linki`, invite.url, true)
             .setColor('RANDOM')
       .setThumbnail(message.guild.iconURL)
-       client.channels.get('526075752932835338').send(embed)
+       client.channels.get('730014308473241601').send(embed)
             });
   kullanildii[message.guild.id].gunlukkullanim = 1
     
@@ -48,7 +48,7 @@ exports.run = async (client, message, args) => {
   if (kullanildii[message.guild.id].gunlukkullanim == 1)
   {
   message.channel.send({embed: {
-      description: '**SunucuTanıt**\n\nBu Komut Bu Sunucuda 12 Saat İçinde 1 Kere Kullanılmış\n\n**Bu Komutu Sadece 12 Saatte 1 Kez Kullanabilirsiniz**\n\n[Destek Sunucusu](https://discord.gg/pM5g3vy)\n[Beni Sunucuna Eklemek İçin Lütfen Tıkla](https://discordapp.com/oauth2/authorize?client_id=506199387785920512&scope=bot&permissions=2080767167)'
+      description: '**SunucuTanıt**\n\nBu Komut Bu Sunucuda 12 Saat İçinde 1 Kere Kullanılmış\n\n**Bu Komutu Sadece 12 Saatte 1 Kez Kullanabilirsiniz**\n\n[Destek Sunucusu](https://discord.gg/gJtDt2s)\n[Beni Sunucuna Eklemek İçin Lütfen Tıkla](https://discordapp.com/oauth2/authorize?client_id=506199387785920512&scope=bot&permissions=2080767167)'
             }});
   }
 };
